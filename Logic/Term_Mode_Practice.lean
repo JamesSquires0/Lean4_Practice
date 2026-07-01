@@ -1,4 +1,5 @@
 import Mathlib.Tactic
+--Proving basic constructive logic laws in term mode (raw CoIC)
 
 theorem and_swap : p ∧ q ↔ q ∧ p :=
   Iff.intro
